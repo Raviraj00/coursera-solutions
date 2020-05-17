@@ -1,0 +1,163 @@
+*{
+
+    box-sizing: border-box;
+    
+    }
+  
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    context{
+    
+      margin :10px;
+    
+      width : 31%;
+    
+      background-color: gray;
+    
+      border: solid black;
+    
+      float: left;
+    
+      padding-left: 10px;
+    
+    }
+    
+    #h1
+    
+    {
+    
+      text-align: right;
+    
+      margin: 0;
+    
+    }
+    
+    #h1 span{
+    
+      background-color: #ec8bab;
+    
+      border-left:solid black;
+    
+      border-bottom: solid black;
+    
+      padding-left: 40px;
+  
+      text-align: right;
+    
+      padding-right: 40px;
+    
+    }
+    
+    #h2
+    
+    {
+    
+      text-align: right;
+    
+      margin: 0;
+    
+    }
+    
+    #h2 span
+    
+    {
+    
+      background-color: rgb(184, 68, 48);
+    
+      border-left:solid black;
+  
+      color: white;
+    
+      border-bottom: solid black;
+    
+      padding-left: 40px;
+    
+      padding-right: 40px;
+    
+    }
+    
+    #h3
+    
+    {
+    
+      text-align: right;
+    
+      margin: 0;
+    
+    }
+    
+    #h3 span
+    
+    {
+    
+      background-color: #e0e088;
+    
+      border-left:solid black;
+    
+      border-bottom: solid black;
+    
+      padding-left: 40px;
+    
+      padding-right: 40px;
+    
+    }
+    
+    @media (min-width: 992px)
+    
+    {
+    
+      context{
+    
+      width: 30%;
+    
+      float : left;
+    
+      }
+    
+    }
+    
+    @media (min-width: 768px) and (max-width:991px )
+    
+    {
+    
+      div{
+    
+      width : 45%;
+    
+      float: left;
+    
+      }
+    
+      #box3{
+    
+      width: 92%;
+    
+      }
+    
+    }
+    
+    @media (max-width: 767px)
+    
+    {
+    
+      #box1{
+    
+      width:100%;
+    
+      }
+    
+      #box2{
+    
+      width: 100%;
+    
+      }
+    
+      #box3{
+    
+      width: 100%;
+    
+      }
+    
+    }
